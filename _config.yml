@@ -5,7 +5,7 @@ theme: jekyll-theme-chirpy
 
 # Change the following value to '/PROJECT_NAME' ONLY IF your site type is GitHub Pages Project sites
 # and doesn't have a custom domain.
-baseurl: "CristianQS.github.io"
+baseurl: ""
 
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
@@ -13,7 +13,7 @@ baseurl: "CristianQS.github.io"
 lang: en
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone: atlantic/canary
+timezone: Atlantic/Canary
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
@@ -26,7 +26,7 @@ description: >- # used by seo meta and the atom feed
   The Cristian Quevedo's Blog, where he will be writting some articles.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: "https://cristianqs.github.io/"
+url: "https://cristianqs.github.io"
 
 github:
   username: CristianQS # change to your github username
@@ -43,9 +43,10 @@ social:
     # The first element serves as the copyright owner's link
     # - https://twitter.com/username # change to your twitter homepage
     - https://github.com/CristianQS # change to your github homepage
+    - https://www.linkedin.com/in/cristian-quevedo-suarez
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    - https://www.linkedin.com/in/cristian-quevedo-suarez/
+    
 
 google_site_verification: # fill in to your verification string
 
@@ -73,10 +74,10 @@ theme_mode: # [light|dark]
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn: https://avatars.githubusercontent.com/u/22389303?v=4
+img_cdn: 
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: https://avatars.githubusercontent.com/u/22389303?v=4
 
 # boolean type, the global switch for TOC in posts.
 toc: true
